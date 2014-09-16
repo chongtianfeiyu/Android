@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#dcdcdc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="记录日期:" />
+
+        <EditText
+            android:id="@+id/note_date"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittext_login"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:hint="选择日期"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#dcdcdc" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#ffffff"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp" >
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/head_photo" />
+
+        <TextView
+            android:id="@+id/p_name_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/head"
+            android:text="黄小杰"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/p_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/p_name_sign"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/p_name_sign"
+            android:text="101-01床"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/p_sex"
+            android:layout_width="10dp"
+            android:layout_height="12dp"
+            android:layout_below="@id/p_name_sign"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/head"
+            android:background="@drawable/man_tip" />
+
+        <TextView
+            android:id="@+id/p_sex_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/p_sex"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/p_sex"
+            android:text="(男) 45岁"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/p_intime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/p_name_sign"
+            android:layout_below="@id/p_sex"
+            android:layout_marginTop="5dp"
+            android:text="2014－7-10入院"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/p_intime"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/p_intime"
+            android:text="入院：22天"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/p_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/p_name_sign"
+            android:layout_below="@id/p_intime"
+            android:layout_marginTop="5dp"
+            android:text="住院号：130734-10"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/p_num"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/p_num"
+            android:text="医师：王幸"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/p_name_sign"
+            android:layout_below="@id/p_num"
+            android:layout_marginTop="5dp"
+            android:text="主要诊断：煤工尘肺壹期  肺痿病"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    
+    
+    <ListView
+        android:id="@+id/note_item" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        ></ListView>
+
+</LinearLayout>

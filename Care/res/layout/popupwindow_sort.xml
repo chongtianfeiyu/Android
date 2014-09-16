@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="护 理" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/advice_gou"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c3c1c2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="膳 食" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/advice_gou"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c3c1c2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="药 疗" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/advice_gou" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c3c1c2" />
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="注 射" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/advice_gou" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c3c1c2" />
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="检 验" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/advice_gou" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c3c1c2" />
+
+</LinearLayout>
